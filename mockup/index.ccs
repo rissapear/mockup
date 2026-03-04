@@ -1,0 +1,67 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: 
+        ". h h h h h h h h h h ."
+        "m c c c c c c c c c c c"
+        ". f f f f f f f f f f .";
+}
+
+.Web Content Accessibility Guidelines {
+    grid-area: h;
+}
+
+.menu {
+    grid-area: m;
+}
+
+.content {
+    grid-area: c;
+}
+
+.footer {
+    grid-area: f;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". t t t t . o i i i i ."
+    ". t t t t . o i i i i ."
+    ". m m m m m m . . . . ."
+    ". m m m m m m h h h h f"
+    ". . . . . . . h h h h f";
+  max-width: 1722px;
+  min-height: 1117px;
+  margin: 0 auto;
+}
+
+/* Grid Areas */
+.title { .pathway-gothic-one-regular {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    grid-area: t; 
+    }
+.open-curly { 
+    grid-area: o; 
+    }
+.image { 
+    grid-area: i; 
+    }
+.main { 
+    grid-area: m; 
+}
+.highlights { 
+    grid-area: h; 
+}
+.closing-curly { 
+    grid-area: f; 
+}

@@ -1,0 +1,56 @@
+.container > div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 2em;
+  color: #e4d4f3;
+}
+
+html, body {
+  box-sizing: border-box;
+  background-color: #44267ba0;
+   align-items: left;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.container > div:nth-child(1n) {
+   font-size: 4em;
+  background-color: #3c149a53;	
+ align-items: left;
+  height: 20%;
+  padding: 20px;
+  margin: 0px;
+}
+
+.container > div:nth-child(3n) {
+  background-color: #6221d15e;
+   align-items: left;
+   font-size: 2em;
+  height: 2%;
+  padding: 45px;
+  margin: 2pts;
+}
+
+.container > div:nth-child(2n) {
+  font-size: 1.8em;
+  background-color: #6e2fdc4e;
+   align-items: left;
+height: 10%;
+  padding: 5px;
+  margin: 0px;
+}
+
+.container > div:nth-child(4n) {
+  font-size: 2em;
+  background-color: #552c9e5f;
+   align-items: left;
+  height: 16%;
+  padding: 45px;
+  margin: 0px;
+}
+body{
+    background-image: url("assets2/board.png");
+    background-size: cover;
+}

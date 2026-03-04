@@ -1,0 +1,4 @@
+ body{
+background-image: url("assets2/Untitled-3.png");
+    background-size: cover;
+ }
