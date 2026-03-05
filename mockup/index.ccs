@@ -5,9 +5,9 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 40px auto 40px;
     grid-template-areas: 
-        ". h h h h h h h h h h ."
-        "m c c c c c c c c c c c"
-        ". f f f f f f f f f f .";
+        ". h h h h h h h h h . ."
+        ". c c c c c c c c c c ."
+        ". f f f f f f f f f . .";
 }
 
 .Web Content Accessibility Guidelines {
@@ -31,11 +31,12 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
     ". . . . . . . . . . . ."
-    ". t t t t . o i i i i ."
-    ". t t t t . o i i i i ."
-    ". m m m m m m . . . . ."
-    ". m m m m m m h h h h f"
-    ". . . . . . . h h h h f";
+    ". t t t t . o i i i . ."
+    ". t t t t . o i i i . ."
+    ". m m m m m m m m . . . ."
+    ". m m m m m . h h h . ."
+    ". . . . . . . h h h . .";
+    
   max-width: 1722px;
   min-height: 1117px;
   margin: 0 auto;

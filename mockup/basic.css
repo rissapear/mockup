@@ -16,8 +16,8 @@ html, body {
 }
 
 .container > div:nth-child(1n) {
-   font-size: 4em;
-  background-color: #3c149a53;	
+   font-size: 6em;
+  background-color: #440bc853;	
  align-items: left;
   height: 20%;
   padding: 20px;
@@ -25,26 +25,26 @@ html, body {
 }
 
 .container > div:nth-child(3n) {
-  background-color: #6221d15e;
+  background-color: #6e2fdc4e;
    align-items: left;
-   font-size: 2em;
+   font-size: 3em;
   height: 2%;
   padding: 45px;
   margin: 2pts;
 }
 
 .container > div:nth-child(2n) {
-  font-size: 1.8em;
+  font-size: 2.5em;
   background-color: #6e2fdc4e;
-   align-items: left;
+   align-items: center;
 height: 10%;
   padding: 5px;
   margin: 0px;
 }
 
 .container > div:nth-child(4n) {
-  font-size: 2em;
-  background-color: #552c9e5f;
+  font-size: 3em;
+  background-color: #6e2fdc4e;
    align-items: left;
   height: 16%;
   padding: 45px;
