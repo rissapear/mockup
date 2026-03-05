@@ -1,4 +1,5 @@
- body{
+title: card
+body{
 background-image: url("assets2/Untitled-3.png");
     background-size: cover;
  }
