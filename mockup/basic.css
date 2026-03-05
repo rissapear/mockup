@@ -1,8 +1,8 @@
 .container > div {
   display: flex;
   justify-content: left;
-  align-items: center;
-  font-size: 2em;
+  align-items: left;
+  font-size: 50em;
   color: #e4d4f3;
 }
 
@@ -16,41 +16,42 @@ html, body {
 }
 
 .container > div:nth-child(1n) {
-   font-size: 6em;
+   font-size: 5em;
   background-color: #440bc853;	
  align-items: left;
-  height: 20%;
-  padding: 20px;
+  height: 10%;
+  padding: 30px;
   margin: 0px;
 }
 
 .container > div:nth-child(3n) {
   background-color: #6e2fdc4e;
    align-items: left;
-   font-size: 3em;
-  height: 2%;
-  padding: 45px;
-  margin: 2pts;
+   font-size: 2em;
+  height: 10%;
+  padding: 10px;
+  margin: 0pts;
 }
 
 .container > div:nth-child(2n) {
-  font-size: 2.5em;
+  font-size: 1.5em;
   background-color: #6e2fdc4e;
-   align-items: center;
+   align-items: left;
 height: 10%;
-  padding: 5px;
+  padding: 10px;
   margin: 0px;
 }
 
 .container > div:nth-child(4n) {
-  font-size: 3em;
+  font-size: 2em;
   background-color: #6e2fdc4e;
    align-items: left;
-  height: 16%;
-  padding: 45px;
+  height: 20%;
+  padding: 10px;
   margin: 0px;
 }
 body{
     background-image: url("assets2/board.png");
     background-size: cover;
+  
 }
