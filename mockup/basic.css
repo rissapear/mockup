@@ -16,7 +16,7 @@ html, body {
 }
 
 .container > div:nth-child(1n) {
-   font-size: 5em;
+   font-size: 4em;
   background-color: #440bc853;	
  align-items: left;
   height: 10%;
@@ -27,7 +27,7 @@ html, body {
 .container > div:nth-child(3n) {
   background-color: #6e2fdc4e;
    align-items: left;
-   font-size: 2em;
+   font-size: 1.8em;
   height: 10%;
   padding: 10px;
   margin: 0pts;
@@ -37,16 +37,16 @@ html, body {
   font-size: 1.5em;
   background-color: #6e2fdc4e;
    align-items: left;
-height: 10%;
+height: 5%;
   padding: 10px;
   margin: 0px;
 }
 
 .container > div:nth-child(4n) {
-  font-size: 2em;
+  font-size: 1.8em;
   background-color: #6e2fdc4e;
    align-items: left;
-  height: 20%;
+  height: 18%;
   padding: 10px;
   margin: 0px;
 }
